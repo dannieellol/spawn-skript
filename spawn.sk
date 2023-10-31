@@ -1,0 +1,19 @@
+command /spawn:
+	trigger:
+		set {_location} to player's location
+		send "&b&lMoonSky &r| Bitte warte 5 Sekunden um Teleportiert zu werden!" to player
+		wait 2 second
+		send "&b&lMoonSky &r| &2&l5 Sekunden!"
+		wait 1 second
+		send "&b&lMoonSky &r| &2&l4 Sekunden!"
+		wait 1 second
+		send "&b&lMoonSky &r| &2&l3 Sekunden!"
+		wait 1 second
+		send "&b&lMoonSky &r| &2&l2 Sekunden!"
+		wait 1 second
+		send "&b&lMoonSky &r| &2&l1 Sekunden!"
+		wait 1 second
+		send "&b&lMoonSky &r| &2&l0 Sekunden!"
+		wait 2 second
+		teleport player to location at -597, 165, -260 in world "world"
+		send "&b&lMoonSky &r| Du wurdest Teleportiert!" to player
